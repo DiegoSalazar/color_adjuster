@@ -52,7 +52,7 @@ Thanks to [this blog post](http://www.redguava.com.au/2011/10/lighten-or-darken-
 
 ## Contributing
 
-1. Fork it ( https://github.com/DiegoSalazar/ColorAdjuster/fork )
+1. Fork it ( https://github.com/DiegoSalazar/color_adjuster/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
