@@ -1,6 +1,6 @@
 # ColorAdjuster
 
-TODO: Write a gem description
+A tiny module mixin for adding color adjusting methods to a class that responds to `color`.
 
 ## Installation
 
@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-Drop this module in a model or class that responds to `color` and returns a Hex string:
+Drop this module in a model or class that responds to `color` and returns a hex string:
 
 ```ruby
 class Status
