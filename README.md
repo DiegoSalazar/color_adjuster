@@ -41,6 +41,13 @@ status.lighten_color     # => "#ff4d4d"
 status.contrasting_color # => "#ff9999"
 ```
 
+You can also pass in an amount to darken/lighten by. For `darken_color` lower is darker. For `lighten_color` higher means lighter:
+
+```ruby
+status.darken_color 0.6  # => "#990000"
+status.lighten_color 0.7 # => "#ffb3b3"
+```
+
 Thanks to [this blog post](http://www.redguava.com.au/2011/10/lighten-or-darken-a-hexadecimal-color-in-ruby-on-rails/) for the code.
 
 ## Contributing
