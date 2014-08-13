@@ -41,7 +41,7 @@ status.lighten_color     # => "#ff4d4d"
 status.contrasting_color # => "#ff9999"
 ```
 
-You can also pass in an amount to darken/lighten by. For `darken_color` lower is darker. For `lighten_color` higher is lighter. The defaults are 0.4 and 0.3, respectively:
+You can also pass in an amount to darken/lighten by. For `darken_color` lower is darker. For `lighten_color` higher is lighter. The defaults are 0.4 and 0.3, respectively.
 
 ```ruby
 status.darken_color 0.6  # => "#990000"
