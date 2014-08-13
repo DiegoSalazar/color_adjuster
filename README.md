@@ -6,7 +6,7 @@ A tiny module mixin for adding color adjusting methods to a class that responds 
 
 Add this line to your application's Gemfile:
 
-    gem 'ColorAdjuster'
+    gem 'color_adjuster'
 
 And then execute:
 
@@ -14,13 +14,15 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install ColorAdjuster
+    $ gem install color_adjuster
 
 ## Usage
 
 Drop this module in a model or class that responds to `color` and returns a hex string:
 
 ```ruby
+require 'color_adjuster'
+
 class Status
   include ColorAdjuster
 
